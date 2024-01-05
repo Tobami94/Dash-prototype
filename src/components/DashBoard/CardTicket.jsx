@@ -46,34 +46,10 @@ const { dataCard, totalValue } = props;
   }
 
 
-    // const rutes = () => {
-    //   switch(route) {
-    //     case "usuarios":
-    //       return <Link to="/users" className="flex items-center gap-2 text-gray-900 hover:underline">  <FaChevronUp />  Ver más </Link>;;
-    //       case "ventas":
-    //       return <Link to="/shop" className="flex items-center gap-2 text-gray-900 hover:underline"> <FaChevronUp />  Ver más </Link>;
-    //       case "totalNews":
-    //         return <Link to="/news" className="flex items-center gap-2 text-gray-900 hover:underline">  <FaChevronUp />  Ver más </Link>;
-    //         default:
-    //           return null;
-    //   }
-    // };
-
-
   return (
     <div className="bg-secondary-100 p-8 rounded-xl">
-      <div className="flex items-center justify-between mb-4">
-        <div>
-          <RiTicketLine
-            className={`text-4xl ${status} p-2 box-content rounded-xl`}
-          />
-        </div>
-        <div></div>
-      </div>
-      {/* valores totales */}
       <div>
         <h1 className="text-4xl text-white font-bold mb-4">{totalValue}</h1>
-
       </div>
       <p className={textColor}>{titleCard}</p>
       <div>
