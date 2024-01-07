@@ -2,6 +2,7 @@ import React from "react";
 import {
   RiNotification3Line,
   RiArrowDownSLine,
+  RiEyeFill,
   RiSettings3Line,
   RiLogoutCircleRLine,
   RiThumbUpLine,
@@ -31,9 +32,9 @@ const Header = () => {
           arrowClassName="bg-secondary-100"
           menuClassName="bg-secondary-100 p-4">
           <h1 className="text-gray-300 text-center font-medium">
-          Notifications (2)
+          Notifications
           </h1>
-          <hr className="my-6 border-gray-500" />
+          <hr className="my-2 border-gray-500" />
           <MenuItem className="p-0 hover:bg-transparent">
             <Link
               to="/"
@@ -69,12 +70,12 @@ const Header = () => {
               </div>
             </Link>
           </MenuItem>
-          <hr className="my-6 border-gray-500" />
+          <hr className="my-3 border-gray-500" />
           <MenuItem className="p-0 hover:bg-transparent flex justify-center cursor-default">
             <Link
               to="/"
-              className="text-gray-400 text-sm hover:text-white transition-colors">
-              View More
+              className="text-gray-400 text-sm hover:text-white transition-colors flex items-center gap-2">
+              <RiEyeFill /> View all
             </Link>
           </MenuItem>
         </Menu>
@@ -83,10 +84,9 @@ const Header = () => {
             <MenuButton className="flex items-center gap-x-2 hover:bg-secondary-100 p-2 rounded-lg transition-colors">
               <img
                 src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
-                className="w-6 h-6 object-cover rounded-full"
+                className="w-8 h-8 object-cover rounded-full"
               />
-              <span>Name User</span>
-              <RiArrowDownSLine />
+            
             </MenuButton>
           }
           align="end"
@@ -113,14 +113,14 @@ const Header = () => {
             <Link
               to="/configuracion"
               className="rounded-lg transition-colors text-gray-300 hover:bg-secondary-900 flex items-center gap-x-4 py-2 px-6 flex-1">
-              <RiSettings3Line /> Config
+              <RiSettings3Line /> Settings
             </Link>
           </MenuItem>
           <MenuItem className="p-0 hover:bg-transparent">
             <Link
               to="/cerrar-sesion"
               className="rounded-lg transition-colors text-gray-300 hover:bg-secondary-900 flex items-center gap-x-4 py-2 px-6 flex-1">
-              <RiLogoutCircleRLine /> Sign off
+              <RiLogoutCircleRLine /> Sign out
             </Link>
           </MenuItem>
         </Menu>
