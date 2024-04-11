@@ -15,6 +15,7 @@ import Tickets from "./pages/admin/Tickets";
 
 import Analytic from "./pages/admin/Analytic";
 import Home from "./pages/admin/Home";
+import Profiles from "./pages/admin/Profiles";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/olvide-password" element={<ForgetPassword />} />
         <Route path="/" element={<LayoutAdmin />}>
           <Route path="home" element={<Home />} />
+          <Route path="/profiles" element={<Profiles />} />
           <Route path="analytics" element={<Analytic/>} />
           <Route path="perfil" element={<Profile />} />
           <Route path="tickets" element={<Tickets />} />

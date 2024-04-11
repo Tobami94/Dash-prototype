@@ -4,8 +4,8 @@ import { RiTicketLine, RiMore2Fill, RiAddLine } from "react-icons/ri";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
-const CardTicket = (props) => {
-  const { dataCard, totalValue } = props;
+const CardTicket = ({id, totalValue, dataCard }) => {
+
 
   let status = "";
   let textColor = "";
@@ -23,6 +23,7 @@ const CardTicket = (props) => {
       textColor = "text-blue-500";
       titleCard = "Total post";
       break;
+      
     case "messagesend":
       status = "bg-green-500/10 text-green-500";
       textColor = "text-green-500";
@@ -43,11 +44,11 @@ const CardTicket = (props) => {
 
   return (
     <div className="bg-secondary-100 p-8 rounded-xl">
-      <div>
+      <div key={id}>
         <h1 className="text-4xl text-white font-bold mb-4">{totalValue}</h1>
-      </div>
       <p className={textColor}>{titleCard}</p>
       <div>table</div>
+      </div>
     </div>
   );
 };

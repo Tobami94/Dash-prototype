@@ -22,7 +22,7 @@ const Tickets = () => {
         <div>
           <h1 className="font-bold text-gray-100 text-xl">Overview</h1>
           <div className="flex items-center gap-2 text-sm text-gray-500">
-            <Link to="/" className="hover:text-primary transition-colors">
+            <Link to="/home" className="hover:text-primary transition-colors">
               Home
             </Link>
             <span>-</span>
@@ -108,8 +108,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -133,8 +132,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -158,8 +156,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -183,8 +180,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -220,8 +216,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -245,8 +240,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -270,8 +264,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -295,8 +288,7 @@ const Tickets = () => {
                       enterTo="transform scale-100 opacity-100"
                       leave="transition duration-75 ease-out"
                       leaveFrom="transform scale-100 opacity-100"
-                      leaveTo="transform scale-95 opacity-0"
-                    >
+                      leaveTo="transform scale-95 opacity-0">
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                         By Keenthemes to save tons and more to time money
                         projects are listed and outstanding{" "}
@@ -333,8 +325,7 @@ const Tickets = () => {
                       <RiTicketLine className="md:text-2xl text-yellow-500" />
                       <Link
                         to="/"
-                        className="md:text-xl hover:text-blue-500 transition-colors"
-                      >
+                        className="md:text-xl hover:text-blue-500 transition-colors">
                         How to use Netronic with Django Framework?
                       </Link>
                       <span className="hidden md:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
@@ -354,8 +345,7 @@ const Tickets = () => {
                       <RiTicketLine className="md:text-2xl text-blue-500" />
                       <Link
                         to="/"
-                        className="md:text-xl hover:text-blue-500 transition-colors"
-                      >
+                        className="md:text-xl hover:text-blue-500 transition-colors">
                         How to use Netronic with Django Framework?
                       </Link>
                       <span className="hidden md:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
@@ -375,8 +365,7 @@ const Tickets = () => {
                       <RiTicketLine className="md:text-2xl text-green-500" />
                       <Link
                         to="/"
-                        className="md:text-xl hover:text-blue-500 transition-colors"
-                      >
+                        className="md:text-xl hover:text-blue-500 transition-colors">
                         How to use Netronic with Django Framework?
                       </Link>
                       <span className="hidden md:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
@@ -396,8 +385,7 @@ const Tickets = () => {
                       <RiTicketLine className="md:text-2xl text-yellow-500" />
                       <Link
                         to="/"
-                        className="md:text-xl hover:text-blue-500 transition-colors"
-                      >
+                        className="md:text-xl hover:text-blue-500 transition-colors">
                         How to use Netronic with Django Framework?
                       </Link>
                       <span className="hidden md:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
@@ -417,8 +405,7 @@ const Tickets = () => {
                       <RiTicketLine className="md:text-2xl text-yellow-500" />
                       <Link
                         to="/"
-                        className="md:text-xl hover:text-blue-500 transition-colors"
-                      >
+                        className="md:text-xl hover:text-blue-500 transition-colors">
                         How to use Netronic with Django Framework?
                       </Link>
                       <span className="hidden md:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
@@ -524,40 +511,35 @@ const Tickets = () => {
                     <li>
                       <Link
                         to="/"
-                        className="flex items-center gap-2 hover:text-primary transition-colors"
-                      >
+                        className="flex items-center gap-2 hover:text-primary transition-colors">
                         <RiArrowRightSLine /> Angular Admin
                       </Link>
                     </li>
                     <li>
                       <Link
                         to="/"
-                        className="flex items-center gap-2 hover:text-primary transition-colors"
-                      >
+                        className="flex items-center gap-2 hover:text-primary transition-colors">
                         <RiArrowRightSLine /> React Admin
                       </Link>
                     </li>
                     <li>
                       <Link
                         to="/"
-                        className="flex items-center gap-2 hover:text-primary transition-colors"
-                      >
+                        className="flex items-center gap-2 hover:text-primary transition-colors">
                         <RiArrowRightSLine /> Vue Admin
                       </Link>
                     </li>
                     <li>
                       <Link
                         to="/"
-                        className="flex items-center gap-2 hover:text-primary transition-colors"
-                      >
+                        className="flex items-center gap-2 hover:text-primary transition-colors">
                         <RiArrowRightSLine /> Nich Admin
                       </Link>
                     </li>
                     <li>
                       <Link
                         to="/"
-                        className="flex items-center gap-2 hover:text-primary transition-colors"
-                      >
+                        className="flex items-center gap-2 hover:text-primary transition-colors">
                         <RiArrowRightSLine /> Dashboard Admin
                       </Link>
                     </li>
@@ -596,8 +578,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -623,8 +604,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -650,8 +630,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -677,8 +656,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -704,8 +682,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -735,8 +712,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -762,8 +738,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -789,8 +764,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -816,8 +790,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
@@ -843,8 +816,7 @@ const Tickets = () => {
                         enterTo="transform scale-100 opacity-100"
                         leave="transition duration-75 ease-out"
                         leaveFrom="transform scale-100 opacity-100"
-                        leaveTo="transform scale-95 opacity-0"
-                      >
+                        leaveTo="transform scale-95 opacity-0">
                         <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
                           By Keenthemes to save tons and more to time money
                           projects are listed and outstanding{" "}
