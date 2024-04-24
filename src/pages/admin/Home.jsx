@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-import CardTicket from "../../components/DashBoard/CardTicket";
-import TableUsers from "../../components/DashBoard/TableUsers";
+import CardTicket from "../../components/DashBoard/Home/CardTicket";
+import LatestUsers from "../../components/DashBoard/Home/LatestUsers";
 
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
 import { dataUsers, overviewTable } from "../../DataGosht"; //import dbGosht
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [users, setUsers] = useState(dataUsers);
@@ -43,17 +44,20 @@ const Home = () => {
         </div>
         {users?.map((u) => {
           return (
-            <TableUsers
+            <LatestUsers
               key={u.id}
               name={u.name}
               state={u.state}
               position={u.position}
               registration_date={u.registration_date}
+              email={u.email}
             />
           );
         })}
       </div>
+      <p className="text-2xs p-4  text-white">Malena Paraschuk © <Link to="https://github.com/Tobami94">Github/Tobami94</Link></p>
     </div>
+   
   );
 };
 

@@ -4,7 +4,14 @@ import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
-const TableUsers = ({ id, name, state, position, registration_date }) => {
+const LatestUsers = ({
+  id,
+  name,
+  state,
+  position,
+  registration_date,
+  email,
+}) => {
   let status = "";
   let colorGlob = "";
   let iconStatus = "";
@@ -38,6 +45,7 @@ const TableUsers = ({ id, name, state, position, registration_date }) => {
             {" "}
             <Link to="/perfil">{name}</Link>
           </span>
+          <p className="py-1 px-0 rounded-lg text-slate-600">{email}</p>
         </div>
         <div>
           <p>{position}</p>
@@ -54,12 +62,7 @@ const TableUsers = ({ id, name, state, position, registration_date }) => {
               <MenuButton className="bg-blue-800/60 transition-colors text-gray-300 hover:bg-secondary-300 p-2 rounded-lg transition-colors">
                 <Link to="/perfil">Edit user</Link>
               </MenuButton>
-            }
-            align="end"
-            arrow
-            arrowClassName="bg-secondary-100"
-            transition
-            menuClassName="bg-secondary-100 p-4"></Menu>
+            }></Menu>
           <Menu
             menuButton={
               <MenuButton className="flex items-center gap-x-2 bg-red-800/60 p-2 rounded-lg transition-colors">
@@ -85,4 +88,4 @@ const TableUsers = ({ id, name, state, position, registration_date }) => {
   );
 };
 
-export default TableUsers;
+export default LatestUsers;

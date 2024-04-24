@@ -1,20 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import {
-  RiFilter2Fill,
-  RiSearch2Line,
-  RiArrowRightLine,
-  RiArrowRightSLine,
-  RiTicketLine,
-  RiArrowLeftSLine,
-  RiFileTextLine,
-  RiDiscussLine,
-  RiTwitterLine,
-  RiGithubLine,
-} from "react-icons/ri";
-import { Tab, Disclosure, Transition } from "@headlessui/react";
 
-import CardTicket from "../../components/DashBoard/CardTicket.jsx";
+import CardTicket from "../../components/DashBoard/Home/CardTicket.jsx";
 
 const Analytic = () => {
   return (

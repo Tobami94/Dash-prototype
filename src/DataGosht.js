@@ -6,6 +6,7 @@ export const dataUsers = [
       "state": "Online",
       "position": "Fullstack",
       "email": "dash@example.com",
+      "password": "pass",
       "registration_date": "2024-03-23",
       "avatar_url": "http://localhost:3000/uploads/user/avatar/1/cd8.jpeg",
       "web_url": "http://localhost:3000/john_smith"
@@ -62,14 +63,14 @@ export const dataUsers = [
 
   export const overviewTable = [
     {
-        "id": "1",
+        "id": 1,
         "name": "total users",
         "totalValue": "145",
         "dataCard": "usuarios"
     },
 
     {
-        "id": "2",
+        "id": 2,
         "name": "total sales",
         "totalValue": 600,
         "dataCard": "ventas"
@@ -77,7 +78,7 @@ export const dataUsers = [
     },
 
     {
-        "id": "3",
+        "id": 3,
         "name": "total post",
         "totalValue": 180,
         "dataCard": "totalNews"
@@ -85,7 +86,7 @@ export const dataUsers = [
     },
 
     {
-        "id": "4",
+        "id": 4,
         "name": "total message",
         "totalValue": 400,
         "dataCard": "messagesend"
@@ -93,4 +94,39 @@ export const dataUsers = [
     }
   
 
+  ]
+
+
+  export const dataCounstries = [
+    {"id": 1,
+    "country":"Argentina",
+   },
+
+   {"id": 2,
+   "country":"México",
+  },
+
+  {"id": 3,
+    "country":"España",
+   },
+
+   {"id": 4,
+    "country":"Alemania",
+   },
+
+   {"id": 5,
+    "country":"Unites States",
+   },
+
+   {"id": 6,
+    "country":"Colombia",
+   },
+
+
+  ]
+  
+
+  export const postSocial = [
+    {},
+    {},
   ]

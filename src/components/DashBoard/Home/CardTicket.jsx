@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { RiTicketLine, RiMore2Fill, RiAddLine } from "react-icons/ri";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
-const CardTicket = ({id, totalValue, dataCard }) => {
-
-
+const CardTicket = ({ id, totalValue, dataCard }) => {
   let status = "";
   let textColor = "";
   let titleCard = "";
@@ -23,7 +19,7 @@ const CardTicket = ({id, totalValue, dataCard }) => {
       textColor = "text-blue-500";
       titleCard = "Total post";
       break;
-      
+
     case "messagesend":
       status = "bg-green-500/10 text-green-500";
       textColor = "text-green-500";
@@ -46,8 +42,8 @@ const CardTicket = ({id, totalValue, dataCard }) => {
     <div className="bg-secondary-100 p-8 rounded-xl">
       <div key={id}>
         <h1 className="text-4xl text-white font-bold mb-4">{totalValue}</h1>
-      <p className={textColor}>{titleCard}</p>
-      <div>table</div>
+        <p className={textColor}>{titleCard}</p>
+        <div>table</div>
       </div>
     </div>
   );
