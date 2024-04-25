@@ -32,9 +32,9 @@ const Header = () => {
           arrowClassName="bg-secondary-100"
           menuClassName="bg-secondary-100 p-4">
           <h1 className="text-gray-300 text-center font-medium">
-          Notifications
+            Notifications
           </h1>
-          <hr className="my-2 border-gray-500" />
+          <hr className="my-2 border-slate-800" />
           <MenuItem className="p-0 hover:bg-transparent">
             <Link
               to="/"
@@ -62,15 +62,13 @@ const Header = () => {
               <div className="text-sm flex flex-col">
                 <div className="flex items-center justify-between gap-4">
                   <span>New post</span>{" "}
-                  <span className="text-[8px]">18/06/2023</span>
+                  <span className="text-[8px]">18/06/2024</span>
                 </div>
-                <p className="text-gray-500 text-xs">
-                 Name User lorem ipsum...
-                </p>
+                <p className="text-gray-500 text-xs">Lorem ipsum...</p>
               </div>
             </Link>
           </MenuItem>
-          <hr className="my-3 border-gray-500" />
+          <hr className="my-2 border-slate-800" />
           <MenuItem className="p-0 hover:bg-transparent flex justify-center cursor-default">
             <Link
               to="/"
@@ -86,7 +84,6 @@ const Header = () => {
                 src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
                 className="w-8 h-8 object-cover rounded-full"
               />
-            
             </MenuButton>
           }
           align="end"
@@ -99,16 +96,18 @@ const Header = () => {
               to="/perfil"
               className="rounded-lg transition-colors text-gray-300 hover:bg-secondary-900 flex items-center gap-x-4 py-2 px-6 flex-1">
               <img
-                src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
+                src="../assets/users_profile.png"
                 className="w-8 h-8 object-cover rounded-full"
               />
               <div className="flex flex-col text-sm">
-                <span className="text-sm">Name User</span>
-                <span className="text-xs text-gray-500">malenaparaschuk@gmail.com</span>
+                <span className="text-sm">User Name</span>
+                <span className="text-xs text-gray-500">
+                  example@example.com
+                </span>
               </div>
             </Link>
           </MenuItem>
-          <hr className="my-4 border-gray-500" />
+          <hr className="my-2 border-slate-800" />
           <MenuItem className="p-0 hover:bg-transparent">
             <Link
               to="/configuracion"

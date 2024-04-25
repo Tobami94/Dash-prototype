@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import CardTicket from "../../components/DashBoard/Home/CardTicket";
 import LatestUsers from "../../components/DashBoard/Home/LatestUsers";
+import GraphHomeRegister from "../../components/DashBoard/Home/GraphHomeRegister";
+import GraphHomeTickets from "../../components/DashBoard/Home/GraphHomeTickets";
 
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
@@ -15,11 +17,15 @@ const Home = () => {
 
   return (
     <div>
-      <h1 className="text-3xl  text-white">Global details</h1>
-      <hr className="my-7 border-gray-500 w-auto h-2 border-0 rounded dark:bg-gray-700" />
-      <div className="flex items-center justify-between mb-10 ">
-        <h1 className="text-2xl  text-white">Overview</h1>
+      <div className="flex">
+        <div className="flex-row">
+          <GraphHomeRegister />
+        </div>
+        <div className="flex-row">
+          <GraphHomeTickets />
+        </div>
       </div>
+      <div className="flex items-center justify-between mb-10 "></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {overviewtable?.map((i) => {
           return (
@@ -55,9 +61,11 @@ const Home = () => {
           );
         })}
       </div>
-      <p className="text-2xs p-4  text-white">Malena Paraschuk © <Link to="https://github.com/Tobami94">Github/Tobami94</Link></p>
+      <p className="text-2xs p-4  text-white">
+        Malena Paraschuk ©{" "}
+        <Link to="https://github.com/Tobami94">Github/Tobami94</Link>
+      </p>
     </div>
-   
   );
 };
 
