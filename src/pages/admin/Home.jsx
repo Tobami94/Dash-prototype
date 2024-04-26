@@ -4,6 +4,8 @@ import CardTicket from "../../components/DashBoard/Home/CardTicket";
 import LatestUsers from "../../components/DashBoard/Home/LatestUsers";
 import GraphHomeRegister from "../../components/DashBoard/Home/GraphHomeRegister";
 import GraphHomeTickets from "../../components/DashBoard/Home/GraphHomeTickets";
+import GraphHomeVentas from "../../components/DashBoard/Home/GraphHomeVentas";
+
 
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
@@ -17,15 +19,19 @@ const Home = () => {
 
   return (
     <div>
-      <div className="flex">
-        <div className="flex-row">
+      <div className="flex grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2">
+        <div>
           <GraphHomeRegister />
         </div>
-        <div className="flex-row">
+        <div>
           <GraphHomeTickets />
         </div>
+        <div>
+          <GraphHomeVentas />
+        </div>
       </div>
-      <div className="flex items-center justify-between mb-10 "></div>
+    
+      <div className="flex items-center justify-between mb-10"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {overviewtable?.map((i) => {
           return (

@@ -20,8 +20,8 @@ const Header = () => {
         <Menu
           menuButton={
             <MenuButton className="relative hover:bg-secondary-100 p-2 rounded-lg transition-colors">
-              <RiNotification3Line />
-              <span className="absolute -top-0.5 right-0 bg-primary py-0.5 px-[5px] box-content text-black rounded-full text-[8px] font-bold">
+              <RiNotification3Line className="text-fuchsia-700" />
+              <span className="absolute -top-0.5 right-0 bg-primary py-0.5 px-[5px] box-content text-fuchsia-700  rounded-full text-[8px] font-bold">
                 2
               </span>
             </MenuButton>
@@ -61,7 +61,7 @@ const Header = () => {
               <RiChat3Line className="p-2 bg-yellow-200 text-yellow-700 box-content rounded-full" />
               <div className="text-sm flex flex-col">
                 <div className="flex items-center justify-between gap-4">
-                  <span>New post</span>{" "}
+                  <span>New Ticket</span>{" "}
                   <span className="text-[8px]">18/06/2024</span>
                 </div>
                 <p className="text-gray-500 text-xs">Lorem ipsum...</p>

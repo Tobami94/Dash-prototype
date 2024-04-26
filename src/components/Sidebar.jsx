@@ -30,7 +30,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/perfil"
-                className="flex items-center gap-4 py-2 px-4 rounded-lg hover:bg-secondary-900 transition-colors">
+                className="flex items-center gap-4 py-2 px-2 rounded-lg hover:bg-secondary-900 transition-colors">
                 <RiUserLine className="text-primary-305" />{" "}
                 <span className="text-primary-305 text-base">Profile</span>
               </Link>
@@ -39,7 +39,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/home"
-                className="flex items-center gap-4 py-2 px-4 rounded-lg hover:bg-secondary-900 transition-colors">
+                className="flex items-center gap-4 py-2 px-2 rounded-lg hover:bg-secondary-900 transition-colors">
                 <RiBarChart2Line className="text-primary-305" />{" "}
                 <span className="text-primary-305 text-base">REPORT</span>
               </Link>
@@ -47,7 +47,7 @@ const Sidebar = () => {
             <li>
               <button
                 onClick={() => setShowSubmenu(!showSubmenu)}
-                className="w-full flex items-center justify-between py-2 px-4 rounded-lg hover:bg-secondary-900 transition-colors">
+                className="w-full flex items-center justify-between py-2 px-2 rounded-lg hover:bg-secondary-900 transition-colors">
                 <span className="flex items-center gap-4">
                   <RiEarthLine className="text-primary-305" />{" "}
                   <span className="text-primary-305 text-base">
@@ -91,7 +91,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/tickets"
-                className="flex items-center gap-4 py-2 px-4 rounded-lg hover:bg-secondary-900 transition-colors">
+                className="flex items-center gap-4 py-2 px-2 rounded-lg hover:bg-secondary-900 transition-colors">
                 <RiCustomerService2Line className="text-primary-305" />
                 <span className="text-primary-305 text-base">
                   Technical support
@@ -101,7 +101,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center gap-4 py-2 px-4 rounded-lg hover:bg-secondary-900 transition-colors">
+                className="flex items-center gap-4 py-2 px-2 rounded-lg hover:bg-secondary-900 transition-colors">
                 <RiCalendarTodoLine className="text-primary-305" />{" "}
                 <span className="text-primary-305 text-base">Calendar</span>
               </Link>

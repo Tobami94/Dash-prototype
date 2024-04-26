@@ -95,12 +95,10 @@ const GraphHomeRegister = () => {
   }, []);
 
   return (
-    <div className="p-2">
+    <div className="p-8 bg-primary-100 rounded-lg shadow max-w-sm w-full md:p-2">
       <div className="container-table-register">
-        <div className="max-w-sm w-full rounded-lg shadow bg-primary-100 p-4 md:p-6">
           <div className="flex justify-between mb-3">
-            <div className="flex justify-center items-center">
-              <h5 className="text-sm font-bold leading-none text-gray-900 dark:text-white pe-1">
+              <h5 className="text-sm font-bold leading-none text-gray-900 dark:text-white">
                 Website traffic
               </h5>
             </div>
@@ -108,8 +106,7 @@ const GraphHomeRegister = () => {
           {/* Donut Chart */}
           <div className="py-1" id="donut-chart"></div>
         </div>
-      </div>
-    </div>
+  
   );
 };
 
