@@ -116,7 +116,7 @@ const GraphHomeVentas = () => {
   }, []);
 
   return (
-    <div className="p-8 bg-primary-100 rounded-lg shadow max-w-sm w-full md:p-6">
+    <div className="p-6 bg-primary-100 rounded-xl">
       <div className="container-column-tickets">
         <div className="flex justify-between mb-3">
           <h5 className="text-sm font-bold leading-none text-gray-900 dark:text-white">
@@ -125,7 +125,7 @@ const GraphHomeVentas = () => {
         </div>
       </div>
       {/* Donut Chart */}
-      <div className="py-1" id="column-chart-tickets"></div>
+      <div id="column-chart-tickets"></div>
     </div>
   );
 };

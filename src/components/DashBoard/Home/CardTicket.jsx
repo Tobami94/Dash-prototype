@@ -11,7 +11,7 @@ const CardTicket = ({ id, totalValue, dataCard }) => {
     case "ventas":
       status = "bg-yellow-500/10 text-yellow-500";
       textColor = "text-yellow-500";
-      titleCard = "Total sales";
+      titleCard = "Total Tickets";
       break;
 
     case "totalNews":
@@ -43,7 +43,6 @@ const CardTicket = ({ id, totalValue, dataCard }) => {
       <div key={id}>
         <h1 className="text-4xl text-white font-bold mb-4">{totalValue}</h1>
         <p className={textColor}>{titleCard}</p>
-        <div>table</div>
       </div>
     </div>
   );

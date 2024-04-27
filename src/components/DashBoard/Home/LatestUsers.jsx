@@ -59,14 +59,14 @@ const LatestUsers = ({
         <div className="flex items-center gap-1">
           <Menu
             menuButton={
-              <MenuButton className="bg-blue-800/60 transition-colors text-gray-300 hover:bg-secondary-300 p-2 rounded-lg transition-colors">
-                <Link to="/perfil">Edit user</Link>
+              <MenuButton className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
+                <Link to="/perfil">Edit</Link>
               </MenuButton>
             }></Menu>
           <Menu
             menuButton={
-              <MenuButton className="flex items-center gap-x-2 bg-red-800/60 p-2 rounded-lg transition-colors">
-                Delete user
+              <MenuButton className="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">
+                Delete
               </MenuButton>
             }
             align="end"

@@ -40,8 +40,8 @@ const Header = () => {
               to="/"
               className="text-gray-300 flex flex-1 items-center gap-4 py-2 px-4 hover:bg-secondary-900 transition-colors rounded-lg">
               <img
-                src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
-                className="w-8 h-8 object-cover rounded-full"
+                src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                className="w-8 h-8 object-cover rounded-full "
               />
               <div className="text-sm flex flex-col">
                 <div className="flex items-center justify-between gap-4">
@@ -81,8 +81,8 @@ const Header = () => {
           menuButton={
             <MenuButton className="flex items-center gap-x-2 hover:bg-secondary-100 p-2 rounded-lg transition-colors">
               <img
-                src="https://img.freepik.com/foto-gratis/feliz-optimista-guapo-gerente-ventas-latina-apuntando-lado-mirando-camara_1262-12679.jpg"
-                className="w-8 h-8 object-cover rounded-full"
+                src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                className="w-9 h-9 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
               />
             </MenuButton>
           }
@@ -96,7 +96,7 @@ const Header = () => {
               to="/perfil"
               className="rounded-lg transition-colors text-gray-300 hover:bg-secondary-900 flex items-center gap-x-4 py-2 px-6 flex-1">
               <img
-                src="../assets/users_profile.png"
+                src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                 className="w-8 h-8 object-cover rounded-full"
               />
               <div className="flex flex-col text-sm">

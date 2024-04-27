@@ -5,7 +5,7 @@ import LatestUsers from "../../components/DashBoard/Home/LatestUsers";
 import GraphHomeRegister from "../../components/DashBoard/Home/GraphHomeRegister";
 import GraphHomeTickets from "../../components/DashBoard/Home/GraphHomeTickets";
 import GraphHomeVentas from "../../components/DashBoard/Home/GraphHomeVentas";
-
+import GraphHomeTicketsCreateResolve from "../../components/DashBoard/Home/GraphTicketsCreateResolve";
 
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
@@ -19,20 +19,29 @@ const Home = () => {
 
   return (
     <div>
-      <div className="flex grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2">
-        <div>
-          <GraphHomeRegister />
-        </div>
-        <div>
-          <GraphHomeTickets />
-        </div>
-        <div>
-          <GraphHomeVentas />
-        </div>
+      <div class="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  gap-3 mb-1">
+
+      <div className="col-span-3">
+        <GraphHomeTicketsCreateResolve />
       </div>
-    
+      <div className="col-span-1">
+        <GraphHomeVentas />
+        </div>
+  
+      <div className="col-span-1">
+        <GraphHomeRegister />
+        </div>
+
+        <div className="col-span-1">
+        <GraphHomeTickets />
+        </div>
+
+
+
+      </div>
+
       <div className="flex items-center justify-between mb-10"></div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 my-1">
         {overviewtable?.map((i) => {
           return (
             <CardTicket

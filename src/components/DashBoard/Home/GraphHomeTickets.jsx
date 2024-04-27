@@ -93,16 +93,15 @@ const GraphHomeTickets = () => {
   }, []);
 
   return (
-    <div className="p-8 bg-primary-100 rounded-lg shadow max-w-sm w-full md:p-2">
-      <div className="container-table-register">
-        <div className="flex justify-between mb-3">
+    <div className="bg-secondary-100 p-3 rounded-xl">
+
+        <div className="flex p-1 justify-between mb-3">
           <h5 className="text-sm font-bold leading-none text-gray-900 dark:text-white">
             New Tickets vs Returned Tickets
           </h5>
         </div>
-      </div>
       {/* Donut Chart */}
-      <div className="py-1" id="donut-chart-tickets"></div>
+      <div id="donut-chart-tickets"></div>
     </div>
   );
 };
